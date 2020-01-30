@@ -75,9 +75,9 @@ class TrafficLightViewController: UIViewController {
     // MARK: - Private Methods
     
     private func updateUI() {
-        redView.layer.cornerRadius = redView.frame.size.width/2
-        yellowView.layer.cornerRadius = yellowView.frame.size.width/2
-        greenView.layer.cornerRadius = greenView.frame.size.width/2
+        redView.layer.cornerRadius = redView.frame.width / 2
+        yellowView.layer.cornerRadius = yellowView.frame.width / 2
+        greenView.layer.cornerRadius = greenView.frame.width / 2
     }
 }
 
